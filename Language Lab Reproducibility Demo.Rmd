@@ -36,6 +36,9 @@ This tutorial uses data and reproduces a subset of analyses reported in the foll
 [Mesquiti & Seraj. (Preprint) The Psychological Impacts of the COVID-19 Pandemic on Corporate Leadership](https://psyarxiv.com/kvar9/)
 
 
+You can find this project's github [here](https://github.com/scm1210/Language_Lab_Repro).
+
+
 The COVID-19 pandemic sent shockwaves across the fabric of our society. Examining the impact of the pandemic on business leadership is particularly important to understanding how this event affected their decision-making. The present study documents the psychological effects of the COVID-19 pandemic on chief executive officers (CEOs). This was accomplished by analyzing CEOs’ language from quarterly earnings calls (N = 19,536) for a year before and after lockdown. CEOs had large shifts in language in the months immediately following the start of the pandemic lockdowns. Analytic thinking plummeted after the world went into lockdown, with CEOs’ language becoming less technical and more personal and intuitive. In parallel, CEOs’ language showed signs of increased cognitive load, as they were processing the effect of the pandemic on their business practices. Business leaders’ use of collective-focused language (we-usage) dropped substantially after the pandemic began, perhaps suggesting CEOs felt disconnected from their companies. Self-focused (I-usage) language increased, showing the increased preoccupation of business leaders. The size of the observed shifts in language during the pandemic also dwarfed responses to other events that occurred dating back to 2010, with the effect lasting around seven months.
 
 
@@ -182,7 +185,7 @@ post_mean_diff <- function(mean_diff_list) {
 
 ## Load in the Data 
 ```{r}
-data  <-  read_csv("Big_CEO.csv") #read in the data
+data  <-  read_csv("https://raw.githubusercontent.com/scm1210/Language_Lab_Repro/main/Big_CEO.csv") #read in the data from github 
 
 data <- data["2019-03-01"<= data$Date & data$Date <= "2021-04-01",] #subsetting covid dates 
 
@@ -204,7 +207,7 @@ data_tidy$Date_covid <- as.factor(data_tidy$Date_off) #factorize
 ## Create Tidy Data for Graphs
 
 ```{r,}
-df <- read_csv("Big_CEO.csv")#put code here to read in Big CEO data
+df <- read_csv("https://raw.githubusercontent.com/scm1210/Language_Lab_Repro/main/Big_CEO.csv")#put code here to read in Big CEO data
 df <- df %>% filter(WC<=5400)   %>% 
   filter(WC>=25)
 
