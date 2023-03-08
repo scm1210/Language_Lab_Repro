@@ -221,7 +221,7 @@ df2 <- df2["2019-01"<= df2$month_year & df2$month_year <= "2021-03",] #covid dat
 
 We were interested in how language changed relative to baseline one year pre-pandemic, as well as how language changed after the Pandemic. 
 
-As a result we ran two separate set of analyses comparing t(time zero) to t[i] and t(12 months after our centered data point) to t + 1. The groups you see will be centered on 03/2019. That is, 12 = 03/2020, 13 = 04,2020, etc. etc.
+As a result we ran two separate set of analyses comparing t(time zero) to t[i] and t(12 months after our centered data point) to t + 1. The groups you see will be centered on 03/2019. That is, 12 = 03/2020, 13 = 04/2020, etc. etc.
 
 ## Analytic Thinking 
 ```{r}
@@ -449,7 +449,6 @@ post_mean_diff(we_meandiff)
 
 # How did language change relative to baseline (one year before the pandemic; 03/2019)?
 
-##
 ## Analytic Thining {.tabset}
 
 ### T-test 
