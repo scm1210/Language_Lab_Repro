@@ -72,10 +72,10 @@ plot_aes = theme_classic() +
  }
 ```
 
-## Load in an clean data 
+## Load in and clean data 
 
 ```{r}
-df <- read_csv('Atlantic_Cleaned_all_vars.csv') #read in the data
+df <- read_csv('https://raw.githubusercontent.com/scm1210/Language_Lab_Repro/main/Atlantic_Cleaned_all_vars.csv') #read in the data
 
 
 #screen outliers
@@ -99,7 +99,7 @@ df <- df %>% filter(readability<=120) %>% #filter out impossible values
 
 ```
 
-## Tidy the data
+## Tidy the data and center variables
 
 ```{r, include=F}
 tidy_df <- df %>%
