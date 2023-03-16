@@ -17,7 +17,7 @@
 ### Atlantic_FK.Rmd
 - R markdown file with all the code for you to run Flesch-Kincaid analyses and build linear models :)!
 
-### Atlanti_Cleaned_all_vars.csv
+### Atlantic_Cleaned_all_vars.csv
 - CSV file with relevant data 
 
 ### Atlantic_FK.html
