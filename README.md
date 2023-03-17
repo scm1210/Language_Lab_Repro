@@ -20,5 +20,5 @@
 ### Atlantic_Cleaned_all_vars.csv
 - CSV file with relevant data 
 
-### [Atlantic_FK.html](https://github.com/scm1210/Language_Lab_Repro/blob/main/Atlantic_FK.html)
+### Atlantic_FK.html
 - Finalized HTML output so you can see the finalized result 
