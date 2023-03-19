@@ -21,4 +21,4 @@
 - CSV file with relevant data 
 
 ### Atlantic_FK.html
-- Finalized HTML output so you can see the finalized result [click here to view](https://github.com/scm1210/Language_Lab_Repro/blob/main/Atlantic_FK.html)
+- Finalized HTML output so you can see the finalized result [click here to view](https://github.com/scm1210/Language_Lab_Repro/Atlantic_FK.html)
